@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root {
+    --marrom: #363636;
+    --cinzaclaro: #EFF2F1;
+    --opacaclaro: #F4B942;
+    --verdeclaro: #97D8C4;
+    --pretoclaro: #242F40;
+    --rosaclaro: #FFB5C2;
+    --opaca: #CCA43B;
+}
+
+.fotos-minhas {
+    margin: auto;
+}
+
+img {
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.pictureContent img {
+    border: solid #f4b942;
+    border-radius: 10px;
+}
