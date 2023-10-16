@@ -1,11 +1,30 @@
 @charset "UTF-8";
 
 :root {
-    --marrom: #363636;
+    --vermelho: #FF0000;
     --cinzaclaro: #EFF2F1;
     --opacaclaro: #F4B942;
     --verdeclaro: #97D8C4;
     --pretoclaro: #242F40;
-    --preto: #000000;
     --branco: #FFFFFF;
+    --preto: #000000;
+}
+p 
+{
+    background-color: #97D8C4;
+}
+/*inline*/
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+*
+{
+    background-color:#EFF2F1;
+}
+li
+{
+    font-size: 25px;
 }
